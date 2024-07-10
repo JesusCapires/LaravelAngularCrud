@@ -63,7 +63,6 @@ export class ExpenseFormComponent implements OnInit {
     }
 
     const errors = Object.keys(control.errors);
-    console.log(errors);
     return errors.length > 0 ? errors[0] : '';
   }
 
